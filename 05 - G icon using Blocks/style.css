@@ -1,0 +1,206 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#000;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    width:650px;
+    height:650px;
+    background:#000;
+    position:relative;
+}
+
+/* Left Side */
+.c1{
+    position:absolute;
+    left:70px;
+    top:90px;
+    width:35px;
+    height:95px;
+    background:#4ec5d1;
+}
+
+.c2{
+    position:absolute;
+    left:110px;
+    top:70px;
+    width:45px;
+    height:115px;
+    background:#4ca3df;
+}
+
+.c3{
+    position:absolute;
+    left:160px;
+    top:70px;
+    width:145px;
+    height:45px;
+    background:#4e5ce8;
+}
+
+.c4{
+    position:absolute;
+    left:160px;
+    top:120px;
+    width:145px;
+    height:40px;
+    background:#5d8df4;
+}
+
+.c5{
+    position:absolute;
+    left:160px;
+    top:165px;
+    width:40px;
+    height:40px;
+    background:#53dbc7;
+}
+
+/* Top Right */
+.c6{
+    position:absolute;
+    left:315px;
+    top:70px;
+    width:95px;
+    height:90px;
+    background:#654ce0;
+}
+
+.c7{
+    position:absolute;
+    left:420px;
+    top:70px;
+    width:40px;
+    height:90px;
+    background:#9d57f1;
+}
+
+.c8{
+    position:absolute;
+    left:470px;
+    top:120px;
+    width:45px;
+    height:45px;
+    background:#d34ad6;
+}
+
+.c9{
+    position:absolute;
+    left:420px;
+    top:170px;
+    width:95px;
+    height:40px;
+    background:#d548c9;
+}
+
+.c10{
+    position:absolute;
+    left:420px;
+    top:220px;
+    width:95px;
+    height:35px;
+    background:#e9588f;
+}
+
+/* Left Large Blocks */
+.c11{
+    position:absolute;
+    left:70px;
+    top:195px;
+    width:86px;
+    height:95px;
+    background:#4fd96e;
+}
+
+.c12{
+    position:absolute;
+    left:70px;
+    top:300px;
+    width:90px;
+    height:185px;
+    background:#45ee00;
+}
+
+/* Small Yellow */
+.c13{
+    position:absolute;
+    left:165px;
+    top:395px;
+    width:35px;
+    height:35px;
+    background:#d9d96b;
+}
+
+.c14{
+    position:absolute;
+    left:120px;
+    top:495px;
+    width:40px;
+    height:40px;
+    background:#b8e650;
+}
+
+/* Bottom */
+.c15{
+    position:absolute;
+    left:165px;
+    top:445px;
+    width:245px;
+    height:45px;
+    background:#ffc800;
+}
+
+.c16{
+    position:absolute;
+    left:165px;
+    top:500px;
+    width:95px;
+    height:45px;
+    background:#ffe100;
+}
+
+.c17{
+    position:absolute;
+    left:265px;
+    top:500px;
+    width:145px;
+    height:45px;
+    background:#ffae00;
+}
+
+/* Right Orange Structure */
+.c18{
+    position:absolute;
+    left:415px;
+    top:399px;
+    width:45px;
+    height:145px;
+    background:#ff8a00;
+}
+
+.c19{
+    position:absolute;
+    left:470px;
+    top:399px;
+    width:45px;
+    height:124px;
+    background:#ff2f00;
+}
+
+.c20{
+    position:absolute;
+    left:365px;
+    top:345px;
+    width:200px;
+    height:45px;
+    background:#ff0b0b;
+}
