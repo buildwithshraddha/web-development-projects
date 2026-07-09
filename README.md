@@ -12,7 +12,7 @@ Every project represents a new concept, challenge, or technique that helps me be
 
 ## 📂 Projects Included
 
-- 📋 Hosting Plus Table
+- 📋 Cycle Motion & Hosting Plans Table
 - 💰 Product Price List
 - 📊 Tables with Colspan & Rowspan
 - 🎨 Git Icons Using Blocks
