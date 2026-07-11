@@ -1,49 +1,72 @@
 <!DOCTYPE html>
-<html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>News Portal</title>
 </head>
+
 <body>
 
-    <div style="height:140px;width: 100%; color:white;float: left;background-color: orangered;">
-        <h1><center>Welcome to the News Portal</center> </h1>
-        <h3><center>Your daily dose of news</center></h3>
-    </div>
-    <div style="height:40px;width: 100%; color: white;float:left;background-color: brown;">
-        <pre><h4> Home      News        Sports      Entertainment       Contact</h4></pre> 
-    </div>
-    <div style="height:40px;width: 100%; color: white;float:left;background-color: #06CBB4;">
-        <marquee direction="right" scrollamount="10"> Welcome to A2Z It Hub, your one stop solution for all IT needs... </marquee>
-    </div>
-    <div style="height:40px;width: 100%; color: white;float:left;background-color: purple;">
-        <marquee direction="left" scrollamount="10"> A2Z IT Hub PVT.LTD.,Balikashram Rd ,Bagade Mala ,A.nagar ,Maharashtra 414001</marquee>
+    <!-- Header -->
+    <div style="height:140px; width:100%; background-color:orangered; color:white; float:left;">
+        <h1 style="text-align:center;">Welcome to the News Portal</h1>
+        <h3 style="text-align:center;">Your daily dose of news</h3>
     </div>
 
-    <!-- Top Stories and Categories -->
+    <!-- Navigation -->
+    <div style="height:40px; width:100%; background-color:brown; color:white; float:left;">
+        <h4>
+            Home &nbsp;&nbsp;&nbsp;&nbsp;
+            News &nbsp;&nbsp;&nbsp;&nbsp;
+            Sports &nbsp;&nbsp;&nbsp;&nbsp;
+            Entertainment &nbsp;&nbsp;&nbsp;&nbsp;
+            Contact
+        </h4>
+    </div>
+
+    <!-- Marquee -->
+    <div style="height:40px; width:100%; background-color:#06CBB4; color:white; float:left;">
+        <marquee direction="right" scrollamount="10">
+            Welcome to A2Z IT Hub, your one stop solution for all IT needs...
+        </marquee>
+    </div>
+
+    <div style="height:40px; width:100%; background-color:purple; color:white; float:left;">
+        <marquee direction="left" scrollamount="10">
+            A2Z IT Hub Pvt. Ltd., Balikashram Rd, Bagade Mala, Ahmednagar, Maharashtra 414001
+        </marquee>
+    </div>
+
+    <!-- Top Stories -->
     <table width="100%">
         <tr>
-            <td width="50%">
+
+            <td width="50%" valign="top">
+
                 <h2>Top Stories</h2>
 
-                <img src="news paper.jpeg" alt="News Image" width="200">
+                <img src="news paper.jpeg" alt="News Story" width="200">
 
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Suspendisse consequat libero eget ligula consectetur.
-                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Suspendisse consequat libero eget ligula consectetur.
                 </p>
-                 <img src="news paper.jpeg" alt="News Image" width="200">
+
+                <img src="news paper.jpeg" alt="News Story" width="200">
 
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Suspendisse consequat libero eget ligula consectetur.
-                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Suspendisse consequat libero eget ligula consectetur.
                 </p>
+
             </td>
 
-            <td width="50%">
+            <td width="50%" valign="top">
+
                 <h3>Categories</h3>
 
                 <ul>
@@ -63,6 +86,7 @@
                 </iframe>
 
             </td>
+
         </tr>
     </table>
 
@@ -73,41 +97,45 @@
 
     <audio controls>
         <source src="a.mpeg" type="audio/mpeg">
+        Your browser does not support the audio element.
     </audio>
 
     <br><br>
 
     <audio controls>
         <source src="a.mpeg" type="audio/mpeg">
+        Your browser does not support the audio element.
     </audio>
 
     <br><br>
 
     <audio controls>
         <source src="a.mpeg" type="audio/mpeg">
+        Your browser does not support the audio element.
     </audio>
 
     <hr>
 
     <!-- Latest Videos -->
-    <div style="height:40px;width: 100%; float:right;background-color: white;">
-    </div>
     <h2>Latest Videos</h2>
 
     <video width="300" controls>
         <source src="v1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
     </video>
 
     <video width="300" controls>
-       <source src="v2.mp4" type="video/mp4">
+        <source src="v2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
     </video>
 
     <hr>
 
-    <div style="height="><!-- Recent News Table -->
+    <!-- Recent News -->
     <h2>Recent News</h2>
 
-    <table border="1" width="100%">
+    <table border="1" width="100%" style="border-collapse:collapse;">
+
         <tr>
             <th>Title</th>
             <th>Category</th>
@@ -120,8 +148,8 @@
             <td>World</td>
             <td>2024-10-08</td>
             <td>
-                <video width="200px" controls>
-                    <source src="v.mp4" type="video/mp4">
+                <video width="200" controls>
+                    <source src="v1.mp4" type="video/mp4">
                 </video>
             </td>
         </tr>
@@ -131,29 +159,50 @@
             <td>Business</td>
             <td>2024-10-08</td>
             <td>
-                <video width="200px" controls>
-                    <source src="v1.mp4" type="video/mp4">
+                <video width="200" controls>
+                    <source src="v2.mp4" type="video/mp4">
                 </video>
             </td>
         </tr>
+
     </table>
 
     <hr>
 
-    <!-- News Channel Images -->
-    <div style="background-color:lightblue;">
-    <h2> News Channels</h2>
-     <marquee direction="down" height="50" width="100" behavior="alternate" scrollamount="10" background-color="lightblue">
-    <img src="ch1.html" width="120" alt="Ch1">
-</marquee>
-<marquee direction="up" height="50" width="100" behavior="alternate" scrollamount="10" background-color="lightblue">
-    <img src="ch3.html" width="120" alt="Ch3">
-</marquee>
-    <footer align="center">
+    <!-- News Channels -->
+    <div style="background-color:lightblue; padding:10px;">
+
+        <h2 style="text-align:center;">News Channels</h2>
+
+        <div style="display:grid; grid-template-columns:repeat(3,1fr); justify-items:center; align-items:center;">
+
+            <marquee direction="down" height="70" width="120" behavior="alternate">
+                <img src="ch1.html" alt="Channel 1" width="120">
+            </marquee>
+
+            <marquee direction="up" height="70" width="120" behavior="alternate">
+                <img src="ch3.html" alt="Channel 2" width="120">
+            </marquee>
+
+            <marquee direction="down" height="70" width="120" behavior="alternate">
+                <img src="ch1.html" alt="Channel 3" width="120">
+            </marquee>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer style="text-align:center;">
         <p>
-            A2Z IT HUB PVT. LTD., Ballikashram Rd, Bagade Mala,
-            Ahmednagar, Maharashtra 414001
+            A2Z IT HUB Pvt. Ltd., Balikashram Rd,
+            Bagade Mala, Ahmednagar,
+            Maharashtra 414001
         </p>
     </footer>
+
 </body>
+
 </html>
