@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#ffffff;
+    height:100vh;
+}
+
+/* Top Navigation */
+
+.navbar{
+    height:60px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    padding:0 25px;
+    gap:20px;
+}
+
+.navbar a{
+    text-decoration:none;
+    color:#202124;
+    font-size:14px;
+}
+
+.apps,
+.profile{
+    width:35px;
+    height:35px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+}
+
+.profile{
+    border-radius:50%;
+}
+
+.p{
+    width: 32px;
+    height: 32px;
+    border-radius:50%;
+    border: 2px solid white;
+    background-color: #87280b;
+    color: white;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+/* Main Content */
+
+.container{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:70px;
+}
+
+/* Google Logo */
+
+.logo{
+    font-size:95px;
+    font-weight:500;
+    color:#8a3d5d;
+    margin-bottom:35px;
+    letter-spacing:-3px;
+}
+
+/* Search Bar */
+
+.search-box{
+    width:900px;
+    max-width:90%;
+    height:58px;
+    border:1px solid #dfe1e5;
+    border-radius:30px;
+    display:flex;
+    align-items:center;
+    padding:0 20px;
+    box-shadow:0 1px 6px rgba(0,0,0,0.15);
+}
+
+.left-icon{
+    width:25px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.search-box input{
+    flex:1;
+    height:100%;
+    border:none;
+    outline:none;
+    font-size:18px;
+    padding-left:12px;
+}
+
+.right-icons{
+    display:flex;
+    align-items:center;
+    gap:18px;
+}
+
+.right-icons div{
+    width:25px;
+    height:25px;
+}
+
+/* Shortcuts */
+
+.shortcuts{
+    margin-top:45px;
+    display:flex;
+    gap:35px;
+}
+
+.item{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.circle{
+    width:58px;
+    height:58px;
+    border-radius:50%;
+    background:#fdecef;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.item p{
+    margin-top:10px;
+    font-size:14px;
+    color:#202124;
+}
+
+
