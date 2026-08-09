@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#efefef;
+    height:100vh;
+    overflow:hidden;
+}
+
+.container{
+    position:relative;
+    width:100%;
+    height:100vh;
+}
+
+/* Common Gradient */
+.shape{
+    background:linear-gradient(135deg,
+    #ff0000 0%,
+    #c40074 45%,
+    #4b00c8 75%,
+    #001eff 100%);
+    box-shadow:0 0 8px rgba(0,0,0,.25);
+}
+
+/* Left V Pattern */
+.s1,.s2,.s3,.s4,.s5,.s6,.s7,.s8{
+    position:absolute;
+    width:150px;
+    height:150px;
+    border: 6px solid white;
+}
+
+.s1{ top:40px; left:100px; }
+.s2{ top:130px; left:190px; }
+.s3{ top:220px; left:280px; }
+.s4{ top:310px; left:375px; }
+.s5{ top:405px; left:470px; }
+.s6{ top:495px; left:565px; }
+
+.s7{
+    top:595px;
+    left:660px;
+}
+
+.s8{
+    top:495px;
+    left:750px;
+}
+
+
+
+/* Big Square */
+.big-square{
+    position:absolute;
+    width:210px;
+    height:210px;
+    left:840px;
+    top:335px;
+    border:6px solid #efefef;
+    z-index:2;
+}
+
+/* Circle */
+.circle{
+    position:absolute;
+    width:350px;
+    height:350px;
+    border-radius:50%;
+    left:915px;
+    top:120px;
+}
+
+/* Horizontal Bar */
+.bar{
+    position:absolute;
+    width:420px;
+    height:28px;
+    left:1030px;
+    top:215px;
+    border:6px solid #efefef;
+    z-index:3;
+}
